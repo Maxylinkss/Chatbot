@@ -1,0 +1,101 @@
+{
+  "photo_5976721454135363671_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "The person is wearing a military uniform with camouflage pattern. The uniform has name tags and an American flag patch. The setting appears to be indoors, possibly an office or base.",
+    "modified_time": 1759473419.0006251,
+    "file_name": "photo_5976721454135363671_x.jpg"
+  },
+  "photo_5976721454135363672_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "The person is wearing a military uniform with a camouflage pattern. The uniform has a US flag patch on the right shoulder and another patch on the left. The setting appears to be indoors, possibly an office or common area.",
+    "modified_time": 1759473419.007635,
+    "file_name": "photo_5976721454135363672_x.jpg"
+  },
+  "photo_5976721454135363673_y.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "A woman in a U.S. Army camouflage uniform with the name tag 'CASTRO', U.S. ARMY tag, and a medical badge on the sleeve. The setting appears to be an office or medical facility with wooden cabinets.",
+    "modified_time": 1759473419.0121877,
+    "file_name": "photo_5976721454135363673_y.jpg"
+  },
+  "photo_5976721454135363674_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "The person is wearing a U.S. Army camouflage uniform with name tag and U.S. Army patch. The setting appears to be indoors, possibly a home or office.",
+    "modified_time": 1759473419.0182254,
+    "file_name": "photo_5976721454135363674_x.jpg"
+  },
+  "photo_5976721454135363730_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "any_time",
+    "has_camouflage": true,
+    "description": "Several people are sitting at tables inside a cafeteria or mess hall. They are wearing military camouflage uniforms. The uniform is a green and brown camouflage pattern. Some have name tags visible. They appear to be eating a meal.",
+    "modified_time": 1759473419.0227687,
+    "file_name": "photo_5976721454135363730_x.jpg"
+  },
+  "photo_5976721454135363731_x.jpg": {
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "home_wear",
+    "setting": "indoor",
+    "time_suitable": "off_hours",
+    "has_camouflage": false,
+    "description": "The photo shows a person wearing a white bathrobe, likely at a spa or relaxation setting. The background features a wooden wall. Another person is in the background wearing dark clothes with a white towel around their neck.",
+    "modified_time": 1759473419.0280945,
+    "file_name": "photo_5976721454135363731_x.jpg"
+  },
+  "photo_5976721454135363732_y.jpg": {
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual_wear",
+    "setting": "outdoor",
+    "time_suitable": "any_time",
+    "has_camouflage": false,
+    "description": "A woman is wearing a black puffer jacket and a white dress. The background is an outdoor setting with buildings.",
+    "modified_time": 1759473419.0341463,
+    "file_name": "photo_5976721454135363732_y.jpg"
+  },
+  "photo_5976721454135363733_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "The person is wearing a military uniform with a camouflage pattern. The uniform has patches and insignia, including the US flag. The setting appears to be indoors, possibly in an office or building corridor.",
+    "modified_time": 1759473419.0381727,
+    "file_name": "photo_5976721454135363733_x.jpg"
+  },
+  "photo_5976721454135363734_x.jpg": {
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual_wear",
+    "setting": "indoor",
+    "time_suitable": "any_time",
+    "has_camouflage": false,
+    "description": "Two women are sitting at a table indoors. One woman is wearing a beige t-shirt, and the other is wearing a white and pink striped shirt. There are drinks and snacks on the table.",
+    "modified_time": 1759473419.0429769,
+    "file_name": "photo_5976721454135363734_x.jpg"
+  }
+}

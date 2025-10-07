@@ -1,0 +1,101 @@
+{
+  "photo_5976721454135363671_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "The person is wearing a military uniform with a camouflage pattern. The uniform has name tags and a US flag patch. The setting appears to be indoors, possibly an office.",
+    "modified_time": 1759811253.0185218,
+    "file_name": "photo_5976721454135363671_x.jpg"
+  },
+  "photo_5976721454135363672_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "The person is wearing a military uniform with a camouflage pattern. There's a US flag patch on the shoulder. The setting appears to be indoors, possibly an office or home.",
+    "modified_time": 1759811253.019522,
+    "file_name": "photo_5976721454135363672_x.jpg"
+  },
+  "photo_5976721454135363673_y.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "A woman is wearing a U.S. Army camouflage uniform. The name tag \"CASTRO\" and \"U.S. ARMY\" are visible. There is a military insignia on the sleeve. The background features indoor cabinets and a wall.",
+    "modified_time": 1759811253.0205219,
+    "file_name": "photo_5976721454135363673_y.jpg"
+  },
+  "photo_5976721454135363674_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "Person wearing a US Army camouflage uniform. The name tag says 'CASTRO'. The background is a plain wall with an electrical outlet. The shirt has a camouflage pattern in shades of green, brown, and tan.",
+    "modified_time": 1759811253.0215218,
+    "file_name": "photo_5976721454135363674_x.jpg"
+  },
+  "photo_5976721454135363730_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "any_time",
+    "has_camouflage": true,
+    "description": "Several people are wearing military uniforms with camouflage patterns. The uniforms appear to be US Army. The setting seems to be a cafeteria with tables and chairs, possibly inside a military base.",
+    "modified_time": 1759811253.0225217,
+    "file_name": "photo_5976721454135363730_x.jpg"
+  },
+  "photo_5976721454135363731_x.jpg": {
+    "category": "unknown",
+    "description": "API error",
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual wear",
+    "setting": "unknown",
+    "time_suitable": "any_time",
+    "modified_time": 1759811253.023522,
+    "file_name": "photo_5976721454135363731_x.jpg"
+  },
+  "photo_5976721454135363732_y.jpg": {
+    "category": "unknown",
+    "description": "API error",
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual wear",
+    "setting": "unknown",
+    "time_suitable": "any_time",
+    "modified_time": 1759811253.0245218,
+    "file_name": "photo_5976721454135363732_y.jpg"
+  },
+  "photo_5976721454135363733_x.jpg": {
+    "category": "unknown",
+    "description": "API error",
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual wear",
+    "setting": "unknown",
+    "time_suitable": "any_time",
+    "modified_time": 1759811253.0255218,
+    "file_name": "photo_5976721454135363733_x.jpg"
+  },
+  "photo_5976721454135363734_x.jpg": {
+    "category": "unknown",
+    "description": "API error",
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual wear",
+    "setting": "unknown",
+    "time_suitable": "any_time",
+    "modified_time": 1759811253.026522,
+    "file_name": "photo_5976721454135363734_x.jpg"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "photo_5976721454135363671_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "A person wearing a military uniform with a camouflage pattern. The uniform has name tags and a US flag patch. The setting appears to be an indoor office environment.",
+    "modified_time": 1759811253.0185218,
+    "file_name": "photo_5976721454135363671_x.jpg"
+  },
+  "photo_5976721454135363672_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "A person wearing a military camouflage uniform with a US flag patch on the sleeve. The setting is indoors, possibly an office or home setting.",
+    "modified_time": 1759811253.019522,
+    "file_name": "photo_5976721454135363672_x.jpg"
+  },
+  "photo_5976721454135363673_y.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "A woman in a military camouflage uniform. The uniform has the name 'CASTRO', 'U.S. ARMY' and an American flag patch. The setting appears to be inside a room with wooden cabinets and white walls.",
+    "modified_time": 1759811253.0205219,
+    "file_name": "photo_5976721454135363673_y.jpg"
+  },
+  "photo_5976721454135363674_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "work_hours",
+    "has_camouflage": true,
+    "description": "The person is wearing a U.S. Army camouflage uniform with name tag 'CASTRO'. The setting appears to be indoors, possibly a barrack or office.",
+    "modified_time": 1759811253.0215218,
+    "file_name": "photo_5976721454135363674_x.jpg"
+  },
+  "photo_5976721454135363730_x.jpg": {
+    "is_uniform": true,
+    "is_casual": false,
+    "clothing_type": "military_uniform",
+    "setting": "indoor",
+    "time_suitable": "any_time",
+    "has_camouflage": true,
+    "description": "Several people are wearing military camouflage uniforms. The setting appears to be a dining facility with tables and chairs. They are eating and drinking. The camouflage pattern is a mix of greens, browns, and tans.",
+    "modified_time": 1759811253.0225217,
+    "file_name": "photo_5976721454135363730_x.jpg"
+  },
+  "photo_5976721454135363731_x.jpg": {
+    "is_uniform": false,
+    "is_casual": false,
+    "clothing_type": "home_wear",
+    "setting": "indoor",
+    "time_suitable": "any_time",
+    "has_camouflage": false,
+    "description": "The woman is wearing a white robe and holding a glass of water. The setting appears to be indoors, with wooden walls.",
+    "modified_time": 1759811253.023522,
+    "file_name": "photo_5976721454135363731_x.jpg"
+  },
+  "photo_5976721454135363732_y.jpg": {
+    "category": "unknown",
+    "description": "API error",
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual wear",
+    "setting": "unknown",
+    "time_suitable": "any_time",
+    "modified_time": 1759811253.0245218,
+    "file_name": "photo_5976721454135363732_y.jpg"
+  },
+  "photo_5976721454135363733_x.jpg": {
+    "category": "unknown",
+    "description": "API error",
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual wear",
+    "setting": "unknown",
+    "time_suitable": "any_time",
+    "modified_time": 1759811253.0255218,
+    "file_name": "photo_5976721454135363733_x.jpg"
+  },
+  "photo_5976721454135363734_x.jpg": {
+    "category": "unknown",
+    "description": "API error",
+    "is_uniform": false,
+    "is_casual": true,
+    "clothing_type": "casual wear",
+    "setting": "unknown",
+    "time_suitable": "any_time",
+    "modified_time": 1759811253.026522,
+    "file_name": "photo_5976721454135363734_x.jpg"
+  }
+}

@@ -1,0 +1,1205 @@
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+usage: messenger_playwright_multi.py [-h] --cookies COOKIES [COOKIES ...]
+                                     [--headful] [--poll POLL]
+messenger_playwright_multi.py: error: the following arguments are required: --cookies
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 5, in <module>
+    import asyncio
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 34, in <module>
+    import ssl
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 100, in <module>
+    import _ssl             # if we can't import it, let the error propagate
+    ^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1532, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1506, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1605, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2356, in <module>
+    asyncio.run(amain(cookie_paths))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Downloads\realchatapp\messenger_playwright_multi.py", line 2326, in amain
+    browser = await pw.chromium.launch(headless=HEADLESS)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 14465, in launch
+    await self._impl_obj.launch(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+Exception ignored in: <function BaseSubprocessTransport.__del__ at 0x0000017E27E03560>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_subprocess.py", line 126, in __del__
+    self.close()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_subprocess.py", line 104, in close
+    proto.pipe.close()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 799, in call_soon
+    self._check_closed()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 545, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000017E27E3CE00>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 116, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+                               ^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 80, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_utils.py", line 102, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000017E27E3CE00>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 116, in __del__
+    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
+                               ^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 80, in __repr__
+    info.append(f'fd={self._sock.fileno()}')
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_utils.py", line 102, in fileno
+    raise ValueError("I/O operation on closed pipe")
+ValueError: I/O operation on closed pipe
+2025-10-04 05:26:34,510 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f680 Starting account for the first time...
+2025-10-04 05:26:34,512 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f680 Starting account for the first time...
+2025-10-04 05:26:34,516 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f680 Starting account for the first time...
+2025-10-04 05:26:34,525 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f680 Starting account for the first time...
+2025-10-04 05:26:34,998 [INFO] [fb.facebook_cookies] Loaded 16 cookies from facebook_cookies.json
+2025-10-04 05:26:35,000 [INFO] [fb.facebook_cookies_account4] Loaded 14 cookies from facebook_cookies_account4.json
+2025-10-04 05:26:35,004 [INFO] [fb.facebook_cookies_account5] Loaded 16 cookies from facebook_cookies_account5.json
+2025-10-04 05:26:35,006 [INFO] [fb.facebook_cookies_account6] Loaded 16 cookies from facebook_cookies_account6.json
+2025-10-04 05:26:36,714 [INFO] [fb.facebook_cookies] Logged in with facebook_cookies (cookies loaded)
+2025-10-04 05:26:36,714 [INFO] [fb.facebook_cookies] Loading Messenger (attempt 1/5)...
+2025-10-04 05:26:36,718 [INFO] [fb.facebook_cookies_account4] Logged in with facebook_cookies_account4 (cookies loaded)
+2025-10-04 05:26:36,718 [INFO] [fb.facebook_cookies_account4] Loading Messenger (attempt 1/5)...
+2025-10-04 05:26:36,720 [INFO] [fb.facebook_cookies_account5] Logged in with facebook_cookies_account5 (cookies loaded)
+2025-10-04 05:26:36,720 [INFO] [fb.facebook_cookies_account5] Loading Messenger (attempt 1/5)...
+2025-10-04 05:26:36,722 [INFO] [fb.facebook_cookies_account6] Logged in with facebook_cookies_account6 (cookies loaded)
+2025-10-04 05:26:36,722 [INFO] [fb.facebook_cookies_account6] Loading Messenger (attempt 1/5)...
+2025-10-04 05:26:52,895 [INFO] [fb.facebook_cookies_account4] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages
+2025-10-04 05:26:52,896 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] Loaded image tracking with 0 conversations
+2025-10-04 05:26:52,896 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f50d Analyzing images with AI vision for smart selection...
+2025-10-04 05:26:52,899 [INFO] [fb.facebook_cookies_account4] Found 18 images, checking which need analysis...
+2025-10-04 05:26:52,900 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \u2705 Analyzed 9 images
+2025-10-04 05:26:52,900 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363671_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,900 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363672_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,900 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363673_y.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,900 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363674_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,900 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363730_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363731_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363732_y.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363733_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363734_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f504 Starting monitoring loop...
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f6e1\ufe0f Enhanced crash protection enabled
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f50d Health checks every 60s
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f415 Watchdog timer: 300s max idle time
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat logging every 120s
+2025-10-04 05:26:52,901 [INFO] [fb.facebook_cookies] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:26:52,902 [INFO] [fb.facebook_cookies] [facebook_cookies] Loaded image tracking with 8 conversations
+2025-10-04 05:26:52,902 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f50d Analyzing images with AI vision for smart selection...
+2025-10-04 05:26:52,904 [INFO] [fb.facebook_cookies] Found 18 images, checking which need analysis...
+2025-10-04 05:26:52,904 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Analyzed 9 images
+2025-10-04 05:26:52,904 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363671_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,904 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363672_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,904 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363673_y.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,904 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363674_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,904 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363730_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363731_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363732_y.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363733_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363734_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f504 Starting monitoring loop...
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f6e1\ufe0f Enhanced crash protection enabled
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f50d Health checks every 60s
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f415 Watchdog timer: 300s max idle time
+2025-10-04 05:26:52,905 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat logging every 120s
+2025-10-04 05:26:52,906 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:26:52,906 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Loaded image tracking with 6 conversations
+2025-10-04 05:26:52,906 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f50d Analyzing images with AI vision for smart selection...
+2025-10-04 05:26:52,908 [INFO] [fb.facebook_cookies_account6] Found 18 images, checking which need analysis...
+2025-10-04 05:26:52,908 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Analyzed 9 images
+2025-10-04 05:26:52,908 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363671_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,908 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363672_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,908 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363673_y.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,908 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363674_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363730_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363731_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363732_y.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363733_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363734_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f504 Starting monitoring loop...
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f6e1\ufe0f Enhanced crash protection enabled
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f50d Health checks every 60s
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f415 Watchdog timer: 300s max idle time
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat logging every 120s
+2025-10-04 05:26:52,909 [INFO] [fb.facebook_cookies_account5] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages
+2025-10-04 05:26:52,910 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] Loaded image tracking with 0 conversations
+2025-10-04 05:26:52,910 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f50d Analyzing images with AI vision for smart selection...
+2025-10-04 05:26:52,911 [INFO] [fb.facebook_cookies_account5] Found 18 images, checking which need analysis...
+2025-10-04 05:26:52,911 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \u2705 Analyzed 9 images
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363671_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363672_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363673_y.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363674_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363730_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363731_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363732_y.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363733_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363734_x.jpg: unknown (best for: any_time)
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f504 Starting monitoring loop...
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f6e1\ufe0f Enhanced crash protection enabled
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f50d Health checks every 60s
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f415 Watchdog timer: 300s max idle time
+2025-10-04 05:26:52,912 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat logging every 120s
+2025-10-04 05:27:08,758 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: "Ah, yeah quiet time at 3:21 am sounds like a blessing too . I've been...
+2025-10-04 05:27:09,469 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:27:12,664 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f4e8 NEW from Messenger: "Aww, yay! We definitely have that positive vibe going on too! 
+"...
+2025-10-04 05:27:13,588 [INFO] [fb.facebook_cookies] \u2705 Got reply from Groq
+2025-10-04 05:27:31,489 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Replied to Messenger: I know, right? We're definitely a match in the positivity department !
+2025-10-04 05:27:36,443 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: "Exactly, quiet time is a blessing in disguise . I'm lucky to have some downtime before my shift today too!"
+2025-10-04 05:27:51,422 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:27:52,130 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:27:52,142 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:28:07,748 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: I know, right? We're definitely a match in the positivity department !...
+2025-10-04 05:28:08,413 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:28:13,940 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #5: Checking 2 conversations...
+2025-10-04 05:28:29,634 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger:  You're speaking my language now! I'm all about spreading positivity and good vibes. It's contagious, right? 
+2025-10-04 05:28:32,932 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f4e8 NEW from Messenger: You're speaking my language now! I'm all about spreading positivity an...
+2025-10-04 05:28:33,845 [INFO] [fb.facebook_cookies] \u2705 Got reply from Groq
+2025-10-04 05:28:49,411 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:28:50,058 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:28:50,105 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:28:51,600 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Replied to Messenger: It's totally contagious! I feel like we're already spreading positivity just by talking .
+2025-10-04 05:28:53,938 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #25, alive for 0s
+2025-10-04 05:28:53,941 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #25, alive for 0s
+2025-10-04 05:28:56,105 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #3, alive for 0s
+2025-10-04 05:29:01,386 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: It's totally contagious! I feel like we're already spreading positivit...
+2025-10-04 05:29:01,662 [WARNING] [fb.facebook_cookies_account6] Groq rate limit hit
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1759555741.690716   11148 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+2025-10-04 05:29:01,781 [WARNING] [fb.facebook_cookies_account6] Gemini quota/rate limit hit
+2025-10-04 05:29:01,782 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:29:06,087 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #7, alive for 0s
+2025-10-04 05:29:08,373 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: That's sweet! \U0001f495 Tell me more! \U0001f60a
+2025-10-04 05:29:11,234 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f4e8 NEW from Messenger: That's sweet! 
+ Tell me more!...
+2025-10-04 05:29:11,234 [WARNING] [fb.facebook_cookies] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:29:17,370 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Replied to Messenger: That's sweet! \U0001f495 Tell me more! \U0001f60a
+2025-10-04 05:29:31,502 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:29:31,502 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:29:31,510 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:29:42,659 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: That's sweet! 
+ Tell me more!...
+2025-10-04 05:29:42,660 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:29:48,338 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: That's sweet! \U0001f495 Tell me more! \U0001f60a
+2025-10-04 05:29:59,251 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #10: Checking 2 conversations...
+2025-10-04 05:30:11,586 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:30:11,586 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:30:11,600 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:30:18,630 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #5: Checking 5 conversations...
+2025-10-04 05:30:40,209 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:30:40,210 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:30:40,219 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:30:54,329 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #49, alive for 0s
+2025-10-04 05:30:54,332 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #49, alive for 0s
+2025-10-04 05:31:06,122 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #15: Checking 2 conversations...
+2025-10-04 05:31:09,107 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:31:09,107 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:31:09,118 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:31:15,154 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #7, alive for 0s
+2025-10-04 05:31:18,756 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #16, alive for 0s
+2025-10-04 05:32:31,240 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f680 Starting account for the first time...
+2025-10-04 05:32:31,242 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f680 Starting account for the first time...
+2025-10-04 05:32:31,244 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f680 Starting account for the first time...
+2025-10-04 05:32:31,248 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f680 Starting account for the first time...
+2025-10-04 05:32:31,692 [INFO] [fb.facebook_cookies] Loaded 16 cookies from facebook_cookies.json
+2025-10-04 05:32:31,723 [INFO] [fb.facebook_cookies_account4] Loaded 14 cookies from facebook_cookies_account4.json
+2025-10-04 05:32:31,729 [INFO] [fb.facebook_cookies_account5] Loaded 16 cookies from facebook_cookies_account5.json
+2025-10-04 05:32:31,735 [INFO] [fb.facebook_cookies_account6] Loaded 16 cookies from facebook_cookies_account6.json
+2025-10-04 05:32:32,141 [INFO] [fb.facebook_cookies] Logged in with facebook_cookies (cookies loaded)
+2025-10-04 05:32:32,142 [INFO] [fb.facebook_cookies] Loading Messenger (attempt 1/5)...
+2025-10-04 05:32:32,145 [INFO] [fb.facebook_cookies_account4] Logged in with facebook_cookies_account4 (cookies loaded)
+2025-10-04 05:32:32,145 [INFO] [fb.facebook_cookies_account4] Loading Messenger (attempt 1/5)...
+2025-10-04 05:32:32,236 [INFO] [fb.facebook_cookies_account5] Logged in with facebook_cookies_account5 (cookies loaded)
+2025-10-04 05:32:32,236 [INFO] [fb.facebook_cookies_account5] Loading Messenger (attempt 1/5)...
+2025-10-04 05:32:32,247 [INFO] [fb.facebook_cookies_account6] Logged in with facebook_cookies_account6 (cookies loaded)
+2025-10-04 05:32:32,247 [INFO] [fb.facebook_cookies_account6] Loading Messenger (attempt 1/5)...
+2025-10-04 05:32:49,172 [INFO] [fb.facebook_cookies_account4] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages
+2025-10-04 05:32:49,172 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] Loaded image tracking with 0 conversations
+2025-10-04 05:32:49,172 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f50d Analyzing images with AI vision for smart selection...
+2025-10-04 05:32:49,175 [INFO] [fb.facebook_cookies_account4] Found 18 images, checking which need analysis...
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \u2705 Analyzed 9 images
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363671_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363672_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363673_y.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363674_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363730_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363731_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363732_y.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,176 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363733_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,177 [INFO] [fb.facebook_cookies_account4]   \U0001f4f8 photo_5976721454135363734_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,177 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f504 Starting monitoring loop...
+2025-10-04 05:32:49,177 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f6e1\ufe0f Enhanced crash protection enabled
+2025-10-04 05:32:49,177 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f50d Health checks every 60s
+2025-10-04 05:32:49,177 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f415 Watchdog timer: 300s max idle time
+2025-10-04 05:32:49,177 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat logging every 120s
+2025-10-04 05:32:49,177 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:32:49,178 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Loaded image tracking with 6 conversations
+2025-10-04 05:32:49,178 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f50d Analyzing images with AI vision for smart selection...
+2025-10-04 05:32:49,179 [INFO] [fb.facebook_cookies_account6] Found 18 images, checking which need analysis...
+2025-10-04 05:32:49,179 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Analyzed 9 images
+2025-10-04 05:32:49,179 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363671_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,179 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363672_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,179 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363673_y.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,179 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363674_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,179 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363730_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363731_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363732_y.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363733_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6]   \U0001f4f8 photo_5976721454135363734_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f504 Starting monitoring loop...
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f6e1\ufe0f Enhanced crash protection enabled
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f50d Health checks every 60s
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f415 Watchdog timer: 300s max idle time
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat logging every 120s
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account5] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] Loaded image tracking with 0 conversations
+2025-10-04 05:32:49,180 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f50d Analyzing images with AI vision for smart selection...
+2025-10-04 05:32:49,182 [INFO] [fb.facebook_cookies_account5] Found 18 images, checking which need analysis...
+2025-10-04 05:32:49,182 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \u2705 Analyzed 9 images
+2025-10-04 05:32:49,182 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363671_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,182 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363672_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,182 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363673_y.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,182 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363674_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,182 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363730_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363731_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363732_y.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363733_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5]   \U0001f4f8 photo_5976721454135363734_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f504 Starting monitoring loop...
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f6e1\ufe0f Enhanced crash protection enabled
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f50d Health checks every 60s
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f415 Watchdog timer: 300s max idle time
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat logging every 120s
+2025-10-04 05:32:49,183 [INFO] [fb.facebook_cookies] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:32:49,184 [INFO] [fb.facebook_cookies] [facebook_cookies] Loaded image tracking with 8 conversations
+2025-10-04 05:32:49,184 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f50d Analyzing images with AI vision for smart selection...
+2025-10-04 05:32:49,185 [INFO] [fb.facebook_cookies] Found 18 images, checking which need analysis...
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Analyzed 9 images
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363671_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363672_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363673_y.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363674_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363730_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363731_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363732_y.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363733_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies]   \U0001f4f8 photo_5976721454135363734_x.jpg: unknown (best for: any_time)
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f504 Starting monitoring loop...
+2025-10-04 05:32:49,186 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f6e1\ufe0f Enhanced crash protection enabled
+2025-10-04 05:32:49,187 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f50d Health checks every 60s
+2025-10-04 05:32:49,187 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f415 Watchdog timer: 300s max idle time
+2025-10-04 05:32:49,187 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat logging every 120s
+2025-10-04 05:33:16,375 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:33:17,386 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f4e8 NEW from Messenger: "Aww, yay! We definitely have that positive vibe going on too! 
+"...
+2025-10-04 05:33:17,529 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:33:17,800 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:33:18,370 [INFO] [fb.facebook_cookies] \u2705 Got reply from Groq
+2025-10-04 05:33:34,229 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Replied to Messenger: "Aww, yay back at ya!  I'm so glad we're vibing like that too! "
+2025-10-04 05:33:35,625 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: "Aww, yay! We definitely have that positive vibe going on too! 
+"...
+2025-10-04 05:33:36,385 [WARNING] [fb.facebook_cookies_account6] Groq rate limit hit
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1759556016.404927    9472 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+2025-10-04 05:33:36,715 [WARNING] [fb.facebook_cookies_account6] Gemini quota/rate limit hit
+2025-10-04 05:33:36,715 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:33:45,488 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: That's sweet! \U0001f495 Tell me more! \U0001f60a
+2025-10-04 05:33:55,902 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: "Ah, yeah quiet time at 3:21 am sounds like a blessing too . I've been...
+2025-10-04 05:33:55,902 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:34:00,515 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f4e8 NEW from Messenger: That's sweet! 
+ Tell me more!...
+2025-10-04 05:34:00,515 [WARNING] [fb.facebook_cookies] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:34:04,149 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: Hey there! \U0001f60a How's your day going? \U0001f495
+2025-10-04 05:34:06,509 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Replied to Messenger: That's sweet! \U0001f495 Tell me more! \U0001f60a
+2025-10-04 05:34:23,394 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:34:23,394 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:34:23,404 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:34:40,635 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: That's sweet! 
+ Tell me more!...
+2025-10-04 05:34:40,635 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:34:46,883 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: That's sweet! \U0001f495 Tell me more! \U0001f60a
+2025-10-04 05:34:49,217 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #5: Checking 2 conversations...
+2025-10-04 05:34:50,958 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #12, alive for 0s
+2025-10-04 05:34:51,024 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #12, alive for 0s
+2025-10-04 05:34:57,048 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: Hey there! 
+ How's your day going?...
+2025-10-04 05:34:57,049 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:35:03,738 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: Hey there! \U0001f60a How's your day going? \U0001f495
+2025-10-04 05:35:07,718 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #6, alive for 0s
+2025-10-04 05:35:25,346 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:35:25,346 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:35:25,429 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:35:37,463 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #4, alive for 0s
+2025-10-04 05:35:42,610 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: Hello...
+2025-10-04 05:35:42,610 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:35:50,195 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: Hey there! \U0001f60a How's your day going? \U0001f495
+2025-10-04 05:35:52,781 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f4e8 NEW from Messenger: Hey there! 
+ How's your day going?...
+2025-10-04 05:35:52,782 [WARNING] [fb.facebook_cookies] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:35:59,452 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Replied to Messenger: Hey there! \U0001f60a How's your day going? \U0001f495
+2025-10-04 05:36:13,694 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:36:13,695 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:36:13,703 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:36:26,735 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #5: Checking 5 conversations...
+2025-10-04 05:36:30,868 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: Hey there! 
+ How's your day going?...
+2025-10-04 05:36:30,868 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:36:37,213 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: Hey there! \U0001f60a How's your day going? \U0001f495
+2025-10-04 05:36:39,997 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #10: Checking 2 conversations...
+2025-10-04 05:36:52,249 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #23, alive for 0s
+2025-10-04 05:36:52,395 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #23, alive for 0s
+2025-10-04 05:37:00,423 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:37:00,424 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:37:00,434 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:37:17,598 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #12, alive for 0s
+2025-10-04 05:37:34,793 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:37:34,794 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:37:34,802 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:37:46,812 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #7, alive for 0s
+2025-10-04 05:38:09,145 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:38:09,145 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:38:09,155 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:38:16,858 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #15: Checking 2 conversations...
+2025-10-04 05:38:43,521 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:38:44,108 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:38:44,122 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:38:53,508 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #34, alive for 0s
+2025-10-04 05:38:53,573 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #34, alive for 0s
+2025-10-04 05:39:19,734 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:39:20,727 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:39:21,001 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:39:34,047 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #10: Checking 5 conversations...
+2025-10-04 05:39:34,870 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #19, alive for 0s
+2025-10-04 05:39:55,688 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #20: Checking 2 conversations...
+2025-10-04 05:39:56,212 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:39:56,793 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:39:56,804 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:40:08,825 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #11, alive for 0s
+2025-10-04 05:40:40,906 [WARNING] [fb.facebook_cookies_account6] \u274c Critical JavaScript error: Error
+2025-10-04 05:40:40,906 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 05:40:40,906 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f504 Initiating crash recovery (reload #1)...
+2025-10-04 05:40:40,906 [WARNING] [fb.facebook_cookies_account6] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 05:40:40,906 [WARNING] [fb.facebook_cookies_account6] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 05:40:40,906 [INFO] [fb.facebook_cookies_account6] Recovery attempt 1/10...
+2025-10-04 05:40:40,934 [INFO] [fb.facebook_cookies_account6] Closed old page
+2025-10-04 05:40:40,934 [INFO] [fb.facebook_cookies_account6] Waiting 5s before creating new page...
+2025-10-04 05:40:45,934 [INFO] [fb.facebook_cookies_account6] Creating new page...
+2025-10-04 05:40:45,993 [INFO] [fb.facebook_cookies_account6] New page created successfully
+2025-10-04 05:40:45,993 [INFO] [fb.facebook_cookies_account6] Navigating to Messenger...
+2025-10-04 05:40:45,993 [INFO] [fb.facebook_cookies_account6] Loading Messenger (attempt 1/5)...
+2025-10-04 05:40:55,314 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #45, alive for 0s
+2025-10-04 05:40:55,314 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #45, alive for 0s
+2025-10-04 05:40:58,315 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:40:58,315 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully recovered page and loaded Messenger
+2025-10-04 05:41:13,648 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: Hey there! 
+ How's your day going?...
+2025-10-04 05:41:13,993 [WARNING] [fb.facebook_cookies_account6] Groq rate limit hit
+2025-10-04 05:41:14,095 [WARNING] [fb.facebook_cookies_account6] Gemini quota/rate limit hit
+2025-10-04 05:41:14,095 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:41:20,692 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u2705 Replied to Messenger: Hey there! \U0001f60a How's your day going? \U0001f495
+2025-10-04 05:41:33,822 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #25: Checking 2 conversations...
+2025-10-04 05:41:44,286 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:41:44,286 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:41:44,340 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:41:52,426 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #26, alive for 0s
+2025-10-04 05:42:19,030 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:42:19,030 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:42:19,039 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:42:31,067 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #15, alive for 0s
+2025-10-04 05:42:32,077 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #15: Checking 5 conversations...
+2025-10-04 05:42:34,171 [WARNING] [fb.facebook_cookies] \u274c Critical JavaScript error: Error
+2025-10-04 05:42:34,171 [WARNING] [fb.facebook_cookies] [facebook_cookies] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 05:42:34,171 [WARNING] [fb.facebook_cookies] [facebook_cookies] \U0001f504 Initiating crash recovery (reload #1)...
+2025-10-04 05:42:34,171 [WARNING] [fb.facebook_cookies] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 05:42:34,171 [WARNING] [fb.facebook_cookies] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 05:42:34,171 [INFO] [fb.facebook_cookies] Recovery attempt 1/10...
+2025-10-04 05:42:34,175 [INFO] [fb.facebook_cookies] Closed old page
+2025-10-04 05:42:34,175 [INFO] [fb.facebook_cookies] Waiting 5s before creating new page...
+2025-10-04 05:42:39,165 [INFO] [fb.facebook_cookies] Creating new page...
+2025-10-04 05:42:39,233 [INFO] [fb.facebook_cookies] New page created successfully
+2025-10-04 05:42:39,233 [INFO] [fb.facebook_cookies] Navigating to Messenger...
+2025-10-04 05:42:39,233 [INFO] [fb.facebook_cookies] Loading Messenger (attempt 1/5)...
+2025-10-04 05:42:51,035 [INFO] [fb.facebook_cookies] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:42:51,035 [INFO] [fb.facebook_cookies] \u2705 Successfully recovered page and loaded Messenger
+2025-10-04 05:42:55,188 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:42:55,189 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:42:55,196 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:42:56,800 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #56, alive for 0s
+2025-10-04 05:42:56,801 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #56, alive for 0s
+2025-10-04 05:43:06,196 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f4e8 NEW from Messenger: Hey there! 
+ How's your day going?...
+2025-10-04 05:43:06,196 [WARNING] [fb.facebook_cookies] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:43:12,846 [INFO] [fb.facebook_cookies] [facebook_cookies] \u2705 Replied to Messenger: Hey there! \U0001f60a How's your day going? \U0001f495
+2025-10-04 05:43:29,580 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:43:29,580 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:43:29,588 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:43:34,047 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #30: Checking 2 conversations...
+2025-10-04 05:43:52,638 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #31, alive for 0s
+2025-10-04 05:44:05,267 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:44:05,268 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:44:05,275 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:44:39,710 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:44:39,710 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:44:39,719 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:44:51,730 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #19, alive for 0s
+2025-10-04 05:44:58,095 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #67, alive for 0s
+2025-10-04 05:44:58,095 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #67, alive for 0s
+2025-10-04 05:45:11,217 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #35: Checking 2 conversations...
+2025-10-04 05:45:14,036 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:45:14,036 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:45:14,046 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:45:27,041 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #20: Checking 5 conversations...
+2025-10-04 05:45:49,127 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:45:49,127 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:45:49,135 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:46:08,612 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #38, alive for 0s
+2025-10-04 05:46:24,149 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:46:24,790 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:46:24,802 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:46:49,235 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #40: Checking 2 conversations...
+2025-10-04 05:46:59,380 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #78, alive for 0s
+2025-10-04 05:46:59,380 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #78, alive for 0s
+2025-10-04 05:47:00,369 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:47:01,080 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:47:01,118 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:47:13,181 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #23, alive for 0s
+2025-10-04 05:48:23,614 [WARNING] [fb.facebook_cookies_account6] \u274c Critical JavaScript error: Error
+2025-10-04 05:48:23,614 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 05:48:23,614 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f504 Initiating crash recovery (reload #2)...
+2025-10-04 05:48:23,614 [WARNING] [fb.facebook_cookies_account6] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 05:48:23,614 [WARNING] [fb.facebook_cookies_account6] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 05:48:23,614 [INFO] [fb.facebook_cookies_account6] Recovery attempt 1/10...
+2025-10-04 05:48:23,619 [INFO] [fb.facebook_cookies_account6] Closed old page
+2025-10-04 05:48:23,619 [INFO] [fb.facebook_cookies_account6] Waiting 5s before creating new page...
+2025-10-04 05:48:26,316 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #45, alive for 0s
+2025-10-04 05:48:27,320 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #45: Checking 2 conversations...
+2025-10-04 05:48:28,623 [INFO] [fb.facebook_cookies_account6] Creating new page...
+2025-10-04 05:48:28,957 [INFO] [fb.facebook_cookies_account6] New page created successfully
+2025-10-04 05:48:28,957 [INFO] [fb.facebook_cookies_account6] Navigating to Messenger...
+2025-10-04 05:48:28,957 [INFO] [fb.facebook_cookies_account6] Loading Messenger (attempt 1/5)...
+2025-10-04 05:48:40,826 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:48:40,826 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully recovered page and loaded Messenger
+2025-10-04 05:49:00,869 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #89, alive for 0s
+2025-10-04 05:49:00,948 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #89, alive for 0s
+2025-10-04 05:49:13,839 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:49:14,807 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:49:14,908 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:49:26,920 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #29, alive for 0s
+2025-10-04 05:49:56,490 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:49:57,493 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:49:57,553 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:50:10,846 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #30: Checking 5 conversations...
+2025-10-04 05:50:11,430 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #50: Checking 2 conversations...
+2025-10-04 05:50:32,303 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #51, alive for 0s
+2025-10-04 05:50:36,952 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:50:37,265 [WARNING] [fb.facebook_cookies_account6] Groq rate limit hit
+2025-10-04 05:50:37,369 [WARNING] [fb.facebook_cookies_account6] Gemini quota/rate limit hit
+2025-10-04 05:50:37,369 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:50:37,381 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:51:03,111 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #100, alive for 0s
+2025-10-04 05:51:03,111 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #100, alive for 0s
+2025-10-04 05:51:12,089 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:51:12,091 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:51:12,099 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:51:47,945 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:51:47,947 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:51:47,955 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:51:59,952 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #33, alive for 0s
+2025-10-04 05:52:11,885 [WARNING] [fb.facebook_cookies] \u274c Critical JavaScript error: Error
+2025-10-04 05:52:11,885 [WARNING] [fb.facebook_cookies] [facebook_cookies] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 05:52:11,885 [WARNING] [fb.facebook_cookies] [facebook_cookies] \U0001f504 Initiating crash recovery (reload #2)...
+2025-10-04 05:52:11,885 [WARNING] [fb.facebook_cookies] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 05:52:11,885 [WARNING] [fb.facebook_cookies] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 05:52:11,885 [INFO] [fb.facebook_cookies] Recovery attempt 1/10...
+2025-10-04 05:52:11,888 [INFO] [fb.facebook_cookies] Closed old page
+2025-10-04 05:52:11,888 [INFO] [fb.facebook_cookies] Waiting 5s before creating new page...
+2025-10-04 05:52:16,908 [INFO] [fb.facebook_cookies] Creating new page...
+2025-10-04 05:52:16,965 [INFO] [fb.facebook_cookies] New page created successfully
+2025-10-04 05:52:16,966 [INFO] [fb.facebook_cookies] Navigating to Messenger...
+2025-10-04 05:52:16,966 [INFO] [fb.facebook_cookies] Loading Messenger (attempt 1/5)...
+2025-10-04 05:52:23,345 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:52:23,347 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:52:23,355 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:52:28,844 [INFO] [fb.facebook_cookies] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:52:28,844 [INFO] [fb.facebook_cookies] \u2705 Successfully recovered page and loaded Messenger
+2025-10-04 05:52:38,857 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #57, alive for 0s
+2025-10-04 05:52:58,871 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:52:58,871 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:52:58,879 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:53:04,444 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #111, alive for 0s
+2025-10-04 05:53:04,444 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #111, alive for 0s
+2025-10-04 05:53:11,910 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #35: Checking 5 conversations...
+2025-10-04 05:53:36,484 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:53:36,484 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:53:36,492 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:53:39,783 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #60: Checking 2 conversations...
+2025-10-04 05:54:12,829 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:54:12,829 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:54:12,844 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:54:24,854 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #37, alive for 0s
+2025-10-04 05:54:39,563 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #63, alive for 0s
+2025-10-04 05:54:48,467 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:54:48,467 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:54:48,514 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:55:06,375 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #122, alive for 0s
+2025-10-04 05:55:06,375 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #122, alive for 0s
+2025-10-04 05:55:20,073 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #65: Checking 2 conversations...
+2025-10-04 05:56:05,666 [WARNING] [fb.facebook_cookies_account6] \u274c Critical JavaScript error: Error
+2025-10-04 05:56:05,666 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 05:56:05,666 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f504 Initiating crash recovery (reload #3)...
+2025-10-04 05:56:05,666 [WARNING] [fb.facebook_cookies_account6] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 05:56:05,666 [WARNING] [fb.facebook_cookies_account6] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 05:56:05,666 [INFO] [fb.facebook_cookies_account6] Recovery attempt 1/10...
+2025-10-04 05:56:05,671 [INFO] [fb.facebook_cookies_account6] Closed old page
+2025-10-04 05:56:05,671 [INFO] [fb.facebook_cookies_account6] Waiting 5s before creating new page...
+2025-10-04 05:56:10,676 [INFO] [fb.facebook_cookies_account6] Creating new page...
+2025-10-04 05:56:10,731 [INFO] [fb.facebook_cookies_account6] New page created successfully
+2025-10-04 05:56:10,731 [INFO] [fb.facebook_cookies_account6] Navigating to Messenger...
+2025-10-04 05:56:10,731 [INFO] [fb.facebook_cookies_account6] Loading Messenger (attempt 1/5)...
+2025-10-04 05:56:22,509 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 05:56:22,509 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully recovered page and loaded Messenger
+2025-10-04 05:56:32,523 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #43, alive for 0s
+2025-10-04 05:56:55,043 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:56:55,676 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:56:55,689 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:56:56,503 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #70, alive for 0s
+2025-10-04 05:56:57,536 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #70: Checking 2 conversations...
+2025-10-04 05:57:07,932 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #133, alive for 0s
+2025-10-04 05:57:07,933 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #133, alive for 0s
+2025-10-04 05:57:30,469 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:57:31,103 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:57:31,115 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:57:44,223 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #45: Checking 5 conversations...
+2025-10-04 05:58:05,850 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:58:06,489 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 05:58:06,500 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nCall log:\n  - waiting for locator("div[role=\'row\']").nth(4)\n')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[role='row']").nth(4)
+
+2025-10-04 05:58:34,255 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #75: Checking 2 conversations...
+2025-10-04 05:58:40,970 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:58:41,237 [WARNING] [fb.facebook_cookies_account6] Groq rate limit hit
+2025-10-04 05:58:41,335 [WARNING] [fb.facebook_cookies_account6] Gemini quota/rate limit hit
+2025-10-04 05:58:41,335 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:58:41,346 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:58:53,370 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #47, alive for 0s
+2025-10-04 05:59:09,020 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #144, alive for 0s
+2025-10-04 05:59:09,083 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #144, alive for 0s
+2025-10-04 05:59:12,276 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #77, alive for 0s
+2025-10-04 05:59:15,599 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:59:15,599 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:59:15,608 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 05:59:50,353 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 05:59:50,353 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 05:59:50,362 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:00:11,327 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #80: Checking 2 conversations...
+2025-10-04 06:00:24,802 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:00:24,802 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:00:24,811 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:00:37,808 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #50: Checking 5 conversations...
+2025-10-04 06:00:59,720 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:00:59,720 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:00:59,728 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:01:08,612 [WARNING] [fb.facebook_cookies] \u274c Critical JavaScript error: Error
+2025-10-04 06:01:08,612 [WARNING] [fb.facebook_cookies] [facebook_cookies] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 06:01:08,612 [WARNING] [fb.facebook_cookies] [facebook_cookies] \U0001f504 Initiating crash recovery (reload #3)...
+2025-10-04 06:01:08,612 [WARNING] [fb.facebook_cookies] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 06:01:08,612 [WARNING] [fb.facebook_cookies] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 06:01:08,612 [INFO] [fb.facebook_cookies] Recovery attempt 1/10...
+2025-10-04 06:01:08,616 [INFO] [fb.facebook_cookies] Closed old page
+2025-10-04 06:01:08,616 [INFO] [fb.facebook_cookies] Waiting 5s before creating new page...
+2025-10-04 06:01:10,180 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #155, alive for 0s
+2025-10-04 06:01:10,180 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #155, alive for 0s
+2025-10-04 06:01:11,773 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #51, alive for 0s
+2025-10-04 06:01:13,625 [INFO] [fb.facebook_cookies] Creating new page...
+2025-10-04 06:01:13,679 [INFO] [fb.facebook_cookies] New page created successfully
+2025-10-04 06:01:13,679 [INFO] [fb.facebook_cookies] Navigating to Messenger...
+2025-10-04 06:01:13,679 [INFO] [fb.facebook_cookies] Loading Messenger (attempt 1/5)...
+2025-10-04 06:01:25,404 [INFO] [fb.facebook_cookies] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 06:01:25,404 [INFO] [fb.facebook_cookies] \u2705 Successfully recovered page and loaded Messenger
+2025-10-04 06:01:34,110 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:01:34,110 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:01:34,118 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:01:35,402 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #83, alive for 0s
+2025-10-04 06:02:08,675 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:02:08,675 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:02:08,683 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:02:15,485 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #85: Checking 2 conversations...
+2025-10-04 06:03:11,647 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #166, alive for 0s
+2025-10-04 06:03:11,647 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #166, alive for 0s
+2025-10-04 06:03:13,482 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #57, alive for 0s
+2025-10-04 06:03:24,517 [WARNING] [fb.facebook_cookies_account6] \u274c Critical JavaScript error: Error
+2025-10-04 06:03:24,517 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 06:03:24,517 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f504 Initiating crash recovery (reload #4)...
+2025-10-04 06:03:24,517 [WARNING] [fb.facebook_cookies_account6] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 06:03:24,517 [WARNING] [fb.facebook_cookies_account6] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 06:03:24,517 [INFO] [fb.facebook_cookies_account6] Recovery attempt 1/10...
+2025-10-04 06:03:24,520 [INFO] [fb.facebook_cookies_account6] Closed old page
+2025-10-04 06:03:24,521 [INFO] [fb.facebook_cookies_account6] Waiting 5s before creating new page...
+2025-10-04 06:03:29,541 [INFO] [fb.facebook_cookies_account6] Creating new page...
+2025-10-04 06:03:29,599 [INFO] [fb.facebook_cookies_account6] New page created successfully
+2025-10-04 06:03:29,599 [INFO] [fb.facebook_cookies_account6] Navigating to Messenger...
+2025-10-04 06:03:29,599 [INFO] [fb.facebook_cookies_account6] Loading Messenger (attempt 1/5)...
+2025-10-04 06:03:41,434 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 06:03:41,434 [INFO] [fb.facebook_cookies_account6] \u2705 Successfully recovered page and loaded Messenger
+2025-10-04 06:03:51,228 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #90, alive for 0s
+2025-10-04 06:03:52,233 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #90: Checking 2 conversations...
+2025-10-04 06:04:14,100 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:04:14,816 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 06:04:14,830 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:04:49,411 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:04:49,976 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 06:04:49,987 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:05:03,141 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #60: Checking 5 conversations...
+2025-10-04 06:05:12,907 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #177, alive for 0s
+2025-10-04 06:05:12,907 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #177, alive for 0s
+2025-10-04 06:05:27,200 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:05:28,221 [INFO] [fb.facebook_cookies_account6] \u2705 Got reply from Groq
+2025-10-04 06:05:28,278 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:05:30,495 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #95: Checking 2 conversations...
+2025-10-04 06:05:40,298 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #61, alive for 0s
+2025-10-04 06:06:03,562 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:06:03,837 [WARNING] [fb.facebook_cookies_account6] Groq rate limit hit
+2025-10-04 06:06:03,991 [WARNING] [fb.facebook_cookies_account6] Gemini quota/rate limit hit
+2025-10-04 06:06:03,991 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:06:04,087 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:06:08,729 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #97, alive for 0s
+2025-10-04 06:06:39,042 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:06:39,042 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:06:39,049 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:07:09,253 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #100: Checking 2 conversations...
+2025-10-04 06:07:14,084 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:07:14,085 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:07:14,093 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:07:14,172 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #188, alive for 0s
+2025-10-04 06:07:14,172 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #188, alive for 0s
+2025-10-04 06:07:48,788 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:07:48,788 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:07:48,797 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:08:00,815 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #65, alive for 0s
+2025-10-04 06:08:01,823 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] Cycle #65: Checking 5 conversations...
+2025-10-04 06:08:23,408 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:08:23,408 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:08:23,418 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:08:26,313 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #104, alive for 0s
+2025-10-04 06:08:46,859 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #105: Checking 2 conversations...
+2025-10-04 06:08:58,287 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:08:58,287 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:08:58,299 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:09:15,509 [INFO] [fb.facebook_cookies_account4] [facebook_cookies_account4] \U0001f493 Heartbeat - Cycle #199, alive for 0s
+2025-10-04 06:09:15,565 [INFO] [fb.facebook_cookies_account5] [facebook_cookies_account5] \U0001f493 Heartbeat - Cycle #199, alive for 0s
+2025-10-04 06:09:32,761 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f4e8 NEW from Messenger: oh sì sarò felice di conoscerti...
+2025-10-04 06:09:32,763 [WARNING] [fb.facebook_cookies_account6] \u26a0\ufe0f All AI providers unavailable, using fallback
+2025-10-04 06:09:32,772 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u274c Failed to send to Messenger
+2025-10-04 06:10:07,269 [INFO] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f493 Heartbeat - Cycle #69, alive for 0s
+2025-10-04 06:10:15,117 [WARNING] [fb.facebook_cookies] \u274c Critical JavaScript error: Error
+2025-10-04 06:10:15,117 [WARNING] [fb.facebook_cookies] [facebook_cookies] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 06:10:15,117 [WARNING] [fb.facebook_cookies] [facebook_cookies] \U0001f504 Initiating crash recovery (reload #4)...
+2025-10-04 06:10:15,118 [WARNING] [fb.facebook_cookies] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 06:10:15,118 [WARNING] [fb.facebook_cookies] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 06:10:15,118 [INFO] [fb.facebook_cookies] Recovery attempt 1/10...
+2025-10-04 06:10:15,123 [INFO] [fb.facebook_cookies] Closed old page
+2025-10-04 06:10:15,123 [INFO] [fb.facebook_cookies] Waiting 5s before creating new page...
+2025-10-04 06:10:20,116 [INFO] [fb.facebook_cookies] Creating new page...
+2025-10-04 06:10:20,183 [INFO] [fb.facebook_cookies] New page created successfully
+2025-10-04 06:10:20,183 [INFO] [fb.facebook_cookies] Navigating to Messenger...
+2025-10-04 06:10:20,183 [INFO] [fb.facebook_cookies] Loading Messenger (attempt 1/5)...
+2025-10-04 06:10:32,150 [INFO] [fb.facebook_cookies] \u2705 Successfully loaded Messenger at: https://www.facebook.com/messages/e2ee/t/1735719613813615/
+2025-10-04 06:10:32,150 [INFO] [fb.facebook_cookies] \u2705 Successfully recovered page and loaded Messenger
+2025-10-04 06:10:42,160 [INFO] [fb.facebook_cookies] [facebook_cookies] \U0001f493 Heartbeat - Cycle #110, alive for 0s
+2025-10-04 06:10:43,173 [INFO] [fb.facebook_cookies] [facebook_cookies] Cycle #110: Checking 2 conversations...
+2025-10-04 06:10:51,353 [WARNING] [fb.facebook_cookies_account6] \u274c Critical JavaScript error: Error
+2025-10-04 06:10:51,353 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \u26a0\ufe0f Health check FAILED - Page crashed or unresponsive!
+2025-10-04 06:10:51,353 [WARNING] [fb.facebook_cookies_account6] [facebook_cookies_account6] \U0001f504 Initiating crash recovery (reload #5)...
+2025-10-04 06:10:51,353 [WARNING] [fb.facebook_cookies_account6] \U0001f504 Page crashed or unresponsive, attempting ENHANCED recovery...
+2025-10-04 06:10:51,353 [WARNING] [fb.facebook_cookies_account6] \U0001f480 Detected crash - will attempt multiple recovery strategies
+2025-10-04 06:10:51,353 [INFO] [fb.facebook_cookies_account6] Recovery attempt 1/10...
+2025-10-04 06:10:51,358 [INFO] [fb.facebook_cookies_account6] Closed old page
+2025-10-04 06:10:51,358 [INFO] [fb.facebook_cookies_account6] Waiting 5s before creating new page...
